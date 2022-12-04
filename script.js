@@ -11,12 +11,15 @@ function clock(){
     let s = new Date().getSeconds();
 
     am_pm.innerHTML = "AM";
+    let hh = h;
 
     if(h === 0){
         h = 12;
     }
-    if(h > 12){
+    if(hh>=12){ 
         am_pm.innerHTML = "PM";
+    {
+    if(h > 12){
         h -= 12;
     }
     hours.innerHTML = h;
