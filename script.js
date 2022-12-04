@@ -18,7 +18,7 @@ function clock(){
     }
     if(hh>=12){ 
         am_pm.innerHTML = "PM";
-    {
+    }
     if(h > 12){
         h -= 12;
     }
